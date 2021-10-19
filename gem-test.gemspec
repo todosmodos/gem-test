@@ -5,6 +5,8 @@ require_relative "lib/gem/test/version"
 Gem::Specification.new do |spec|
   spec.name          = "gem-test"
   spec.version       = Gem::Test::VERSION
+  spec.authors       = ["Test"]
+  spec.email         = ["test@gmail.com"]
 
   spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
   spec.description   = "TODO: Write a longer description or delete this line."
